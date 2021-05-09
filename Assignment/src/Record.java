@@ -1,3 +1,4 @@
+package com.avatar.record_management;
 
 public class Record {
 

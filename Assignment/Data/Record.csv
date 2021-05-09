@@ -1,4 +1,4 @@
 Title,Artist,Genre, SongID
-RnB,The Weeknd,Starboy,0
-Rock,New Order,Blue Monday,1
-RnB,Justin Bieber,Peaches,2
+ID:0 Artist: The Weeknd, Title: Starboy, Genre: RnB
+ID:1 Artist: New Order, Title: Blue Monday, Genre: Rock
+ID:2 Artist: Justin Bieber, Title: Peaches, Genre: RnB
