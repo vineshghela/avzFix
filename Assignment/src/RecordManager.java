@@ -70,7 +70,7 @@ public class RecordManager {
 	
 	public static void readCSV() throws FileNotFoundException 
 {
-		Scanner input = new Scanner(new FileInputStream("/home/vinesh/Downloads/JavaAssignmentYear1-main/Assignment/Data/Record.csv"));
+		Scanner input = new Scanner(new FileInputStream("/home/vinesh/Downloads/JavaAssignmentYear1-main/avzFix/Assignment/Data/Record.csv"));
 		
 		try { 
 			input.nextLine();
@@ -90,7 +90,7 @@ public class RecordManager {
 
 public void writeCSV() throws FileNotFoundException
 {
-	PrintWriter out = new PrintWriter("/home/vinesh/Downloads/JavaAssignmentYear1-main/Assignment/Data/Record.csv");
+	PrintWriter out = new PrintWriter("/home/vinesh/Downloads/JavaAssignmentYear1-main/avzFix/Assignment/Data/Record.csv");
 	out.println("Title,Artist,Genre, SongID");
 	
 	for ( Record i : records) {
